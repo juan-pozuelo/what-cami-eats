@@ -100,7 +100,7 @@ export default function Home() {
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="text"
-            placeholder="e.g. Papaya"
+            placeholder="e.g. Papaya or Aspartame"
             value={ingredient}
             onChange={(e) => setIngredient(e.target.value)}
             style={styles.input}
