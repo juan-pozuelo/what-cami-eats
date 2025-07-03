@@ -55,6 +55,19 @@ export default function Home() {
     e.preventDefault();
 
     const lower = ingredient.toLowerCase().trim();
+
+    // 🎯 Special message for Otoro
+    if (lower === 'otoro') {
+      setResult({
+        message: 'I love you and see you July 18th',
+        health: 'Perfect',
+        sustainability: 'Most sustainable food',
+        emoji: '❤️',
+        unknown: false,
+      });
+      return;
+    }
+
     const found = ingredientsData.find(item => item.name === lower);
 
     if (found) {
@@ -81,12 +94,14 @@ export default function Home() {
     good: '#3a7a2b',
     neutral: '#a97c50',
     caution: '#c1440e',
+    perfect: '#4a7a48',
   };
 
   const colorBySustainability = {
     'low impact': '#3a7a2b',
     'medium impact': '#a97c50',
     'high impact': '#c1440e',
+    'most sustainable food': '#4a7a48',
   };
 
   return (
@@ -127,7 +142,7 @@ export default function Home() {
                 <p
                   style={{
                     ...styles.label,
-                    color: colorByHealth[result.health] || '#496b2d',
+                    color: colorByHealth[result.health?.toLowerCase()] || '#496b2d',
                   }}
                 >
                   Healthy Level: <strong>{result.health}</strong>
@@ -135,7 +150,7 @@ export default function Home() {
                 <p
                   style={{
                     ...styles.label,
-                    color: colorBySustainability[result.sustainability] || '#496b2d',
+                    color: colorBySustainability[result.sustainability?.toLowerCase()] || '#496b2d',
                   }}
                 >
                   Sustainability: <strong>{result.sustainability}</strong>
