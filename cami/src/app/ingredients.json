@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "apple",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "banana",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍭 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "grape",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧪 May have health concerns. Grows easily and locally."
+  },
+  {
+    "name": "mango",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Common in everyday meals. Moderate ecological footprint."
+  },
+  {
+    "name": "kiwi",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍚 Supports body function well. Moderate ecological footprint."
+  },
+  {
+    "name": "pineapple",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍚 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "strawberry",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧄 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "papaya",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧃 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "peach",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧄 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "plum",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍅 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "carrot",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥩 Standard pantry item. May require transport or more resources."
+  },
+  {
+    "name": "broccoli",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "spinach",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Not harmful but not a superfood. Good for the planet."
+  },
+  {
+    "name": "lettuce",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "tomato",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧂 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "onion",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍅 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "garlic",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🌿 Fine in moderation. Good for the planet."
+  },
+  {
+    "name": "zucchini",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧪 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "pepper",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧬 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "cabbage",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧪 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "quinoa",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥛 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "millet",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥕 Supports body function well. Grows easily and locally."
+  },
+  {
+    "name": "barley",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍞 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "oats",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Not harmful but not a superfood. Good for the planet."
+  },
+  {
+    "name": "chickpeas",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧀 Best enjoyed sparingly. Good for the planet."
+  },
+  {
+    "name": "lentils",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "kidney beans",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥛 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "black-eyed peas",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧪 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "bulgur",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥛 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "farro",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧀 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "milk",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "cream",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧊 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "butter",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥩 Not harmful but not a superfood. Grows easily and locally."
+  },
+  {
+    "name": "yogurt",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧪 Fine in moderation. Eco-friendly staple."
+  },
+  {
+    "name": "ghee",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧂 Supports body function well. Can contribute to pollution."
+  },
+  {
+    "name": "cheddar cheese",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍅 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "mozzarella",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥛 Linked to dietary issues. May require transport or more resources."
+  },
+  {
+    "name": "egg",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "egg white",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧬 Linked to dietary issues. May require transport or more resources."
+  },
+  {
+    "name": "egg yolk",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥣 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "chicken",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌱 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "beef",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍗 Fine in moderation. Low water usage."
+  },
+  {
+    "name": "pork",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌱 Best enjoyed sparingly. Eco-friendly staple."
+  },
+  {
+    "name": "lamb",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍋 Great for balanced diets. Low water usage."
+  },
+  {
+    "name": "turkey",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧃 Standard pantry item. Grows easily and locally."
+  },
+  {
+    "name": "salmon",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧀 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "tuna",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧪 Highly processed or artificial. Good for the planet."
+  },
+  {
+    "name": "sardine",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥣 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "anchovy",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥣 Not harmful but not a superfood. Grows easily and locally."
+  },
+  {
+    "name": "shrimp",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Fine in moderation. High water or land use."
+  },
+  {
+    "name": "cumin",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥩 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "coriander",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🔥 Nutritious and wholesome. Eco-friendly staple."
+  },
+  {
+    "name": "turmeric",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍞 Fine in moderation. Grows easily and locally."
+  },
+  {
+    "name": "cinnamon",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍗 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "nutmeg",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥩 Rich in essential nutrients. High water or land use."
+  },
+  {
+    "name": "oregano",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧄 Nutritious and wholesome. High water or land use."
+  },
+  {
+    "name": "thyme",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "rosemary",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🔥 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "bay leaf",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧄 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "clove",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍭 Supports body function well. May require transport or more resources."
+  },
+  {
+    "name": "salt",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧪 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "sugar",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧬 Best enjoyed sparingly. Often linked to environmental damage."
+  },
+  {
+    "name": "vinegar",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍋 Fine in moderation. High water or land use."
+  },
+  {
+    "name": "flour",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍋 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "baking soda",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥛 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "cornstarch",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥣 Fine in moderation. Seasonal or imported."
+  },
+  {
+    "name": "vegetable oil",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍅 Rich in essential nutrients. Eco-friendly staple."
+  },
+  {
+    "name": "canola oil",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧀 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "sunflower oil",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🔥 Rich in essential nutrients. High water or land use."
+  },
+  {
+    "name": "sesame oil",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍅 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "aspartame",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧀 Not harmful but not a superfood. Grows easily and locally."
+  },
+  {
+    "name": "sucralose",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧬 Rich in essential nutrients. Often linked to environmental damage."
+  },
+  {
+    "name": "stevia",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥕 Best enjoyed sparingly. Can contribute to pollution."
+  },
+  {
+    "name": "erythritol",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🔥 Supports body function well. High water or land use."
+  },
+  {
+    "name": "xylitol",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "saccharin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥣 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "acesulfame K",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍞 Common in everyday meals. Grows easily and locally."
+  },
+  {
+    "name": "honey",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🔥 Not harmful but not a superfood. Eco-friendly staple."
+  },
+  {
+    "name": "maple syrup",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧃 Supports body function well. Moderate ecological footprint."
+  },
+  {
+    "name": "agave syrup",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧂 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "sodium benzoate",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥛 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "sodium nitrite",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧬 Standard pantry item. Low water usage."
+  },
+  {
+    "name": "calcium propionate",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧀 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "potassium sorbate",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍅 Fine in moderation. Moderate ecological footprint."
+  },
+  {
+    "name": "sorbic acid",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Common in everyday meals. Grows easily and locally."
+  },
+  {
+    "name": "sulfur dioxide",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Nutritious and wholesome. Grows easily and locally."
+  },
+  {
+    "name": "nitrates",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍋 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "benzoic acid",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍚 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "BHT",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥩 Common in everyday meals. Eco-friendly staple."
+  },
+  {
+    "name": "BHA",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌿 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "monosodium glutamate",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍞 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "xanthan gum",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🌱 Fine in moderation. Good for the planet."
+  },
+  {
+    "name": "lecithin",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍗 Rich in essential nutrients. Grows easily and locally."
+  },
+  {
+    "name": "citric acid",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧂 Not harmful but not a superfood. Often linked to environmental damage."
+  },
+  {
+    "name": "tartaric acid",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍞 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "propylene glycol",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧂 Fine in moderation. Eco-friendly staple."
+  },
+  {
+    "name": "guar gum",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍭 Not harmful but not a superfood. Moderate ecological footprint."
+  },
+  {
+    "name": "carrageenan",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍞 Fine in moderation. Good for the planet."
+  },
+  {
+    "name": "pectin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥛 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "maltodextrin",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧃 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "red 40",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧬 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "yellow 5",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥩 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "blue 1",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🌱 Great for balanced diets. Often linked to environmental damage."
+  },
+  {
+    "name": "beta-carotene",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧂 Standard pantry item. Grows easily and locally."
+  },
+  {
+    "name": "annatto",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧀 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "caramel color",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥩 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "chlorophyllin",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍚 Fine in moderation. High water or land use."
+  },
+  {
+    "name": "paprika extract",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍅 Common in everyday meals. May require transport or more resources."
+  },
+  {
+    "name": "beet juice powder",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍗 Fine in moderation. Good for the planet."
+  },
+  {
+    "name": "curcumin",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍅 Fine in moderation. Grows easily and locally."
+  },
+  {
+    "name": "apple",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍚 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "banana",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍅 Rich in essential nutrients. Grows easily and locally."
+  },
+  {
+    "name": "grape",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Fine in moderation. High water or land use."
+  },
+  {
+    "name": "mango",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🌿 Nutritious and wholesome. Can contribute to pollution."
+  },
+  {
+    "name": "kiwi",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍚 Best enjoyed sparingly. Can contribute to pollution."
+  },
+  {
+    "name": "pineapple",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥕 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "strawberry",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧬 Best enjoyed sparingly. Good for the planet."
+  },
+  {
+    "name": "papaya",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍗 May have health concerns. Low water usage."
+  },
+  {
+    "name": "peach",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Rich in essential nutrients. Moderate ecological footprint."
+  },
+  {
+    "name": "plum",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Supports body function well. Low water usage."
+  },
+  {
+    "name": "carrot",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🔥 Not harmful but not a superfood. Good for the planet."
+  },
+  {
+    "name": "broccoli",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍞 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "spinach",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥛 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "lettuce",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "tomato",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍅 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "onion",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍅 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "garlic",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧬 Great for balanced diets. Often linked to environmental damage."
+  },
+  {
+    "name": "zucchini",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍚 Rich in essential nutrients. Eco-friendly staple."
+  },
+  {
+    "name": "pepper",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧂 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "cabbage",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍗 Supports body function well. Good for the planet."
+  },
+  {
+    "name": "quinoa",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧃 Nutritious and wholesome. Can contribute to pollution."
+  },
+  {
+    "name": "millet",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧪 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "barley",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍗 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "oats",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🔥 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "chickpeas",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🌿 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "lentils",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Common in everyday meals. Low water usage."
+  },
+  {
+    "name": "kidney beans",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍭 Best enjoyed sparingly. Low water usage."
+  },
+  {
+    "name": "black-eyed peas",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍋 Highly processed or artificial. Moderate ecological footprint."
+  },
+  {
+    "name": "bulgur",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧀 Highly processed or artificial. May require transport or more resources."
+  },
+  {
+    "name": "farro",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Fine in moderation. Can contribute to pollution."
+  },
+  {
+    "name": "milk",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍞 Great for balanced diets. Good for the planet."
+  },
+  {
+    "name": "cream",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧊 Rich in essential nutrients. Seasonal or imported."
+  },
+  {
+    "name": "butter",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🌿 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "yogurt",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥣 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "ghee",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🔥 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "cheddar cheese",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍭 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "mozzarella",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧀 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "egg",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌿 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "egg white",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍚 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "egg yolk",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🌿 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "chicken",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧪 Rich in essential nutrients. High water or land use."
+  },
+  {
+    "name": "beef",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🌿 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "pork",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🔥 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "lamb",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧄 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "turkey",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍭 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "salmon",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧄 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "tuna",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍚 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "sardine",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧃 Common in everyday meals. Eco-friendly staple."
+  },
+  {
+    "name": "anchovy",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧂 Standard pantry item. Good for the planet."
+  },
+  {
+    "name": "shrimp",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥩 Not harmful but not a superfood. Low water usage."
+  },
+  {
+    "name": "cumin",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥛 May have health concerns. Can contribute to pollution."
+  },
+  {
+    "name": "coriander",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧀 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "turmeric",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Standard pantry item. Good for the planet."
+  },
+  {
+    "name": "cinnamon",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "nutmeg",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥩 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "oregano",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥕 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "thyme",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍭 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "rosemary",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧃 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "bay leaf",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🌱 Linked to dietary issues. Often linked to environmental damage."
+  },
+  {
+    "name": "clove",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧂 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "salt",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Fine in moderation. Can contribute to pollution."
+  },
+  {
+    "name": "sugar",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧄 May have health concerns. Moderate ecological footprint."
+  },
+  {
+    "name": "vinegar",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "flour",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥕 Fine in moderation. Low water usage."
+  },
+  {
+    "name": "baking soda",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "cornstarch",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧂 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "vegetable oil",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍭 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "canola oil",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍅 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "sunflower oil",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Not harmful but not a superfood. Often linked to environmental damage."
+  },
+  {
+    "name": "sesame oil",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌿 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "aspartame",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍭 Not harmful but not a superfood. May require transport or more resources."
+  },
+  {
+    "name": "sucralose",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍞 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "stevia",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 Highly processed or artificial. Grows easily and locally."
+  },
+  {
+    "name": "erythritol",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥛 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "xylitol",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "saccharin",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧄 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "acesulfame K",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍭 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "honey",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍗 Best enjoyed sparingly. Low water usage."
+  },
+  {
+    "name": "maple syrup",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧊 Standard pantry item. Often linked to environmental damage."
+  },
+  {
+    "name": "agave syrup",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧂 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "sodium benzoate",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 Best enjoyed sparingly. Grows easily and locally."
+  },
+  {
+    "name": "sodium nitrite",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🔥 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "calcium propionate",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Standard pantry item. Often linked to environmental damage."
+  },
+  {
+    "name": "potassium sorbate",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥕 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "sorbic acid",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥛 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "sulfur dioxide",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧄 Linked to dietary issues. Eco-friendly staple."
+  },
+  {
+    "name": "nitrates",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧂 Not harmful but not a superfood. Grows easily and locally."
+  },
+  {
+    "name": "benzoic acid",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍅 Standard pantry item. May require transport or more resources."
+  },
+  {
+    "name": "BHT",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍚 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "BHA",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍚 Not harmful but not a superfood. Low water usage."
+  },
+  {
+    "name": "monosodium glutamate",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌿 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "xanthan gum",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍋 Rich in essential nutrients. Often linked to environmental damage."
+  },
+  {
+    "name": "lecithin",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧂 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "citric acid",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍗 Common in everyday meals. Eco-friendly staple."
+  },
+  {
+    "name": "tartaric acid",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥕 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "propylene glycol",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧃 Rich in essential nutrients. May require transport or more resources."
+  },
+  {
+    "name": "guar gum",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌱 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "carrageenan",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥕 May have health concerns. High water or land use."
+  },
+  {
+    "name": "pectin",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍚 Standard pantry item. Good for the planet."
+  },
+  {
+    "name": "maltodextrin",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍞 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "red 40",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧊 Rich in essential nutrients. High water or land use."
+  },
+  {
+    "name": "yellow 5",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍞 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "blue 1",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍚 Standard pantry item. May require transport or more resources."
+  },
+  {
+    "name": "beta-carotene",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧃 Rich in essential nutrients. Can contribute to pollution."
+  },
+  {
+    "name": "annatto",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍞 Fine in moderation. Seasonal or imported."
+  },
+  {
+    "name": "caramel color",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥣 Rich in essential nutrients. May require transport or more resources."
+  },
+  {
+    "name": "chlorophyllin",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧀 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "paprika extract",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍚 Standard pantry item. Often linked to environmental damage."
+  },
+  {
+    "name": "beet juice powder",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥛 Nutritious and wholesome. Low water usage."
+  },
+  {
+    "name": "curcumin",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥩 Not harmful but not a superfood. Moderate ecological footprint."
+  },
+  {
+    "name": "apple",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧂 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "banana",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🌱 Supports body function well. Eco-friendly staple."
+  },
+  {
+    "name": "grape",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧄 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "mango",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍋 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "kiwi",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍋 Linked to dietary issues. Often linked to environmental damage."
+  },
+  {
+    "name": "pineapple",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧪 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "strawberry",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍗 Supports body function well. Can contribute to pollution."
+  },
+  {
+    "name": "papaya",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧀 Best enjoyed sparingly. Low water usage."
+  },
+  {
+    "name": "peach",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧄 Best enjoyed sparingly. Often linked to environmental damage."
+  },
+  {
+    "name": "plum",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥩 Linked to dietary issues. Often linked to environmental damage."
+  },
+  {
+    "name": "carrot",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧃 Best enjoyed sparingly. Grows easily and locally."
+  },
+  {
+    "name": "broccoli",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "spinach",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧂 Common in everyday meals. May require transport or more resources."
+  },
+  {
+    "name": "lettuce",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥛 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "tomato",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧂 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "onion",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥕 Nutritious and wholesome. Good for the planet."
+  },
+  {
+    "name": "garlic",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧊 Fine in moderation. May require transport or more resources."
+  },
+  {
+    "name": "zucchini",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Not harmful but not a superfood. High water or land use."
+  },
+  {
+    "name": "pepper",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧬 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "cabbage",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍅 Best enjoyed sparingly. Can contribute to pollution."
+  },
+  {
+    "name": "quinoa",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍗 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "millet",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧪 Rich in essential nutrients. May require transport or more resources."
+  },
+  {
+    "name": "barley",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧬 Rich in essential nutrients. Moderate ecological footprint."
+  },
+  {
+    "name": "oats",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥩 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "chickpeas",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍞 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "lentils",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Fine in moderation. Grows easily and locally."
+  },
+  {
+    "name": "kidney beans",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧂 Supports body function well. Grows easily and locally."
+  },
+  {
+    "name": "black-eyed peas",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧃 Rich in essential nutrients. Eco-friendly staple."
+  },
+  {
+    "name": "bulgur",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌿 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "farro",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧀 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "milk",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥛 May have health concerns. High water or land use."
+  },
+  {
+    "name": "cream",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Great for balanced diets. Low water usage."
+  },
+  {
+    "name": "butter",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍅 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "yogurt",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥛 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "ghee",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧪 May have health concerns. Grows easily and locally."
+  },
+  {
+    "name": "cheddar cheese",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌿 Highly processed or artificial. Eco-friendly staple."
+  },
+  {
+    "name": "mozzarella",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "egg",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "egg white",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧀 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "egg yolk",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧀 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "chicken",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍚 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "beef",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍅 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "pork",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧃 Supports body function well. Can contribute to pollution."
+  },
+  {
+    "name": "lamb",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍞 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "turkey",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧊 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "salmon",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Standard pantry item. Low water usage."
+  },
+  {
+    "name": "tuna",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥛 Fine in moderation. Grows easily and locally."
+  },
+  {
+    "name": "sardine",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧂 Best enjoyed sparingly. Eco-friendly staple."
+  },
+  {
+    "name": "anchovy",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌿 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "shrimp",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "cumin",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🌱 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "coriander",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍋 Nutritious and wholesome. High water or land use."
+  },
+  {
+    "name": "turmeric",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥕 Nutritious and wholesome. May require transport or more resources."
+  },
+  {
+    "name": "cinnamon",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍚 Common in everyday meals. Low water usage."
+  },
+  {
+    "name": "nutmeg",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍞 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "oregano",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🔥 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "thyme",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥩 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "rosemary",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥕 Standard pantry item. Often linked to environmental damage."
+  },
+  {
+    "name": "bay leaf",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧃 Standard pantry item. Seasonal or imported."
+  },
+  {
+    "name": "clove",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥕 Common in everyday meals. Moderate ecological footprint."
+  },
+  {
+    "name": "salt",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Rich in essential nutrients. Grows easily and locally."
+  },
+  {
+    "name": "sugar",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍞 Not harmful but not a superfood. Often linked to environmental damage."
+  },
+  {
+    "name": "vinegar",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍗 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "flour",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍅 May have health concerns. Moderate ecological footprint."
+  },
+  {
+    "name": "baking soda",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥕 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "cornstarch",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌱 May have health concerns. Eco-friendly staple."
+  },
+  {
+    "name": "vegetable oil",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍚 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "canola oil",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🔥 Highly processed or artificial. Eco-friendly staple."
+  },
+  {
+    "name": "sunflower oil",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥛 May have health concerns. Eco-friendly staple."
+  },
+  {
+    "name": "sesame oil",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥣 Linked to dietary issues. Grows easily and locally."
+  },
+  {
+    "name": "aspartame",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧬 Nutritious and wholesome. Can contribute to pollution."
+  },
+  {
+    "name": "sucralose",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥣 May have health concerns. Grows easily and locally."
+  },
+  {
+    "name": "stevia",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍞 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "erythritol",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🔥 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "xylitol",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧪 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "saccharin",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Nutritious and wholesome. Eco-friendly staple."
+  },
+  {
+    "name": "acesulfame K",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Supports body function well. May require transport or more resources."
+  },
+  {
+    "name": "honey",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Standard pantry item. Grows easily and locally."
+  },
+  {
+    "name": "maple syrup",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧃 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "agave syrup",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍋 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "sodium benzoate",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍋 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "sodium nitrite",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧪 Supports body function well. May require transport or more resources."
+  },
+  {
+    "name": "calcium propionate",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍋 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "potassium sorbate",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Not harmful but not a superfood. High water or land use."
+  },
+  {
+    "name": "sorbic acid",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🌿 Rich in essential nutrients. Low water usage."
+  },
+  {
+    "name": "sulfur dioxide",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧂 Highly processed or artificial. Good for the planet."
+  },
+  {
+    "name": "nitrates",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥣 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "benzoic acid",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍋 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "BHT",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧀 Fine in moderation. Eco-friendly staple."
+  },
+  {
+    "name": "BHA",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥩 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "monosodium glutamate",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🌿 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "xanthan gum",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍗 May have health concerns. Often linked to environmental damage."
+  },
+  {
+    "name": "lecithin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍭 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "citric acid",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍅 Fine in moderation. Seasonal or imported."
+  },
+  {
+    "name": "tartaric acid",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍚 Rich in essential nutrients. Moderate ecological footprint."
+  },
+  {
+    "name": "propylene glycol",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥣 Common in everyday meals. Low water usage."
+  },
+  {
+    "name": "guar gum",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧂 Rich in essential nutrients. Can contribute to pollution."
+  },
+  {
+    "name": "carrageenan",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧊 Nutritious and wholesome. High water or land use."
+  },
+  {
+    "name": "pectin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧊 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "maltodextrin",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧊 Not harmful but not a superfood. High water or land use."
+  },
+  {
+    "name": "red 40",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧪 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "yellow 5",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍗 Rich in essential nutrients. Eco-friendly staple."
+  },
+  {
+    "name": "blue 1",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧄 Fine in moderation. High water or land use."
+  },
+  {
+    "name": "beta-carotene",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧀 Fine in moderation. May require transport or more resources."
+  },
+  {
+    "name": "annatto",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍋 Great for balanced diets. Often linked to environmental damage."
+  },
+  {
+    "name": "caramel color",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧊 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "chlorophyllin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧀 Best enjoyed sparingly. May require transport or more resources."
+  },
+  {
+    "name": "paprika extract",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧀 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "beet juice powder",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌿 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "curcumin",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Fine in moderation. Eco-friendly staple."
+  },
+  {
+    "name": "apple",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥛 Common in everyday meals. Eco-friendly staple."
+  },
+  {
+    "name": "banana",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍭 Best enjoyed sparingly. Often linked to environmental damage."
+  },
+  {
+    "name": "grape",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥕 Linked to dietary issues. Eco-friendly staple."
+  },
+  {
+    "name": "mango",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧄 Standard pantry item. Eco-friendly staple."
+  },
+  {
+    "name": "kiwi",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧪 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "pineapple",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 Best enjoyed sparingly. Eco-friendly staple."
+  },
+  {
+    "name": "strawberry",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🔥 Best enjoyed sparingly. Eco-friendly staple."
+  },
+  {
+    "name": "papaya",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥕 Nutritious and wholesome. High water or land use."
+  },
+  {
+    "name": "peach",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥛 May have health concerns. Grows easily and locally."
+  },
+  {
+    "name": "plum",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌿 Highly processed or artificial. Low water usage."
+  },
+  {
+    "name": "carrot",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍋 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "broccoli",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍋 Highly processed or artificial. Good for the planet."
+  },
+  {
+    "name": "spinach",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧀 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "lettuce",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 Best enjoyed sparingly. Often linked to environmental damage."
+  },
+  {
+    "name": "tomato",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌿 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "onion",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Standard pantry item. Grows easily and locally."
+  },
+  {
+    "name": "garlic",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧬 Highly processed or artificial. Seasonal or imported."
+  },
+  {
+    "name": "zucchini",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Common in everyday meals. High water or land use."
+  },
+  {
+    "name": "pepper",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍞 May have health concerns. Eco-friendly staple."
+  },
+  {
+    "name": "cabbage",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧪 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "quinoa",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧪 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "millet",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧪 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "barley",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍋 Best enjoyed sparingly. Good for the planet."
+  },
+  {
+    "name": "oats",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧀 Supports body function well. Low water usage."
+  },
+  {
+    "name": "chickpeas",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "lentils",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥕 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "kidney beans",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥛 Supports body function well. Grows easily and locally."
+  },
+  {
+    "name": "black-eyed peas",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Not harmful but not a superfood. May require transport or more resources."
+  },
+  {
+    "name": "bulgur",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧄 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "farro",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Supports body function well. Eco-friendly staple."
+  },
+  {
+    "name": "milk",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🔥 Great for balanced diets. High water or land use."
+  },
+  {
+    "name": "cream",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥣 May have health concerns. Low water usage."
+  },
+  {
+    "name": "butter",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌱 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "yogurt",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧬 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "ghee",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥣 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "cheddar cheese",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥩 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "mozzarella",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍚 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "egg",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌿 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "egg white",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Supports body function well. Good for the planet."
+  },
+  {
+    "name": "egg yolk",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧂 Great for balanced diets. Low water usage."
+  },
+  {
+    "name": "chicken",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥣 Not harmful but not a superfood. Low water usage."
+  },
+  {
+    "name": "beef",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🔥 Standard pantry item. May require transport or more resources."
+  },
+  {
+    "name": "pork",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥛 Standard pantry item. Good for the planet."
+  },
+  {
+    "name": "lamb",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍚 Common in everyday meals. Good for the planet."
+  },
+  {
+    "name": "turkey",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍭 Highly processed or artificial. May require transport or more resources."
+  },
+  {
+    "name": "salmon",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥛 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "tuna",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🌱 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "sardine",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🔥 May have health concerns. Eco-friendly staple."
+  },
+  {
+    "name": "anchovy",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧊 Common in everyday meals. Good for the planet."
+  },
+  {
+    "name": "shrimp",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🌿 Not harmful but not a superfood. Moderate ecological footprint."
+  },
+  {
+    "name": "cumin",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧄 Not harmful but not a superfood. Moderate ecological footprint."
+  },
+  {
+    "name": "coriander",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🥣 Supports body function well. May require transport or more resources."
+  },
+  {
+    "name": "turmeric",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🌿 Rich in essential nutrients. High water or land use."
+  },
+  {
+    "name": "cinnamon",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Common in everyday meals. Grows easily and locally."
+  },
+  {
+    "name": "nutmeg",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌱 May have health concerns. Moderate ecological footprint."
+  },
+  {
+    "name": "oregano",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🌱 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "thyme",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥣 Standard pantry item. Moderate ecological footprint."
+  },
+  {
+    "name": "rosemary",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥕 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "bay leaf",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍋 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "clove",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍞 Fine in moderation. Can contribute to pollution."
+  },
+  {
+    "name": "salt",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥛 Linked to dietary issues. Good for the planet."
+  },
+  {
+    "name": "sugar",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍭 Standard pantry item. Eco-friendly staple."
+  },
+  {
+    "name": "vinegar",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🔥 May have health concerns. Moderate ecological footprint."
+  },
+  {
+    "name": "flour",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍞 Best enjoyed sparingly. Grows easily and locally."
+  },
+  {
+    "name": "baking soda",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍗 Great for balanced diets. Often linked to environmental damage."
+  },
+  {
+    "name": "cornstarch",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "vegetable oil",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧊 Nutritious and wholesome. Moderate ecological footprint."
+  },
+  {
+    "name": "canola oil",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥕 Supports body function well. Eco-friendly staple."
+  },
+  {
+    "name": "sunflower oil",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌱 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "sesame oil",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍋 May have health concerns. Eco-friendly staple."
+  },
+  {
+    "name": "aspartame",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧃 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "sucralose",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🥛 Fine in moderation. Seasonal or imported."
+  },
+  {
+    "name": "stevia",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍞 May have health concerns. High water or land use."
+  },
+  {
+    "name": "erythritol",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍅 Nutritious and wholesome. Good for the planet."
+  },
+  {
+    "name": "xylitol",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍅 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "saccharin",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥩 Nutritious and wholesome. Good for the planet."
+  },
+  {
+    "name": "acesulfame K",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥣 Not harmful but not a superfood. Grows easily and locally."
+  },
+  {
+    "name": "honey",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍋 Not harmful but not a superfood. Eco-friendly staple."
+  },
+  {
+    "name": "maple syrup",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧪 Best enjoyed sparingly. High water or land use."
+  },
+  {
+    "name": "agave syrup",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧃 Great for balanced diets. Can contribute to pollution."
+  },
+  {
+    "name": "sodium benzoate",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍭 Rich in essential nutrients. Moderate ecological footprint."
+  },
+  {
+    "name": "sodium nitrite",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍭 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "calcium propionate",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍋 Supports body function well. Good for the planet."
+  },
+  {
+    "name": "potassium sorbate",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌿 Supports body function well. Moderate ecological footprint."
+  },
+  {
+    "name": "sorbic acid",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍗 May have health concerns. Grows easily and locally."
+  },
+  {
+    "name": "sulfur dioxide",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "nitrates",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🍞 Not harmful but not a superfood. Eco-friendly staple."
+  },
+  {
+    "name": "benzoic acid",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧬 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "BHT",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧃 Highly processed or artificial. Grows easily and locally."
+  },
+  {
+    "name": "BHA",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥛 Nutritious and wholesome. Can contribute to pollution."
+  },
+  {
+    "name": "monosodium glutamate",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 May have health concerns. Low water usage."
+  },
+  {
+    "name": "xanthan gum",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🌿 Standard pantry item. High water or land use."
+  },
+  {
+    "name": "lecithin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧄 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "citric acid",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧊 Linked to dietary issues. Often linked to environmental damage."
+  },
+  {
+    "name": "tartaric acid",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥣 Linked to dietary issues. May require transport or more resources."
+  },
+  {
+    "name": "propylene glycol",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧄 Best enjoyed sparingly. Can contribute to pollution."
+  },
+  {
+    "name": "guar gum",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍭 Great for balanced diets. Moderate ecological footprint."
+  },
+  {
+    "name": "carrageenan",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍭 Best enjoyed sparingly. Good for the planet."
+  },
+  {
+    "name": "pectin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧃 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "maltodextrin",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🔥 Linked to dietary issues. May require transport or more resources."
+  },
+  {
+    "name": "red 40",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍅 Highly processed or artificial. High water or land use."
+  },
+  {
+    "name": "yellow 5",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍞 Highly processed or artificial. Can contribute to pollution."
+  },
+  {
+    "name": "blue 1",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍭 Common in everyday meals. Can contribute to pollution."
+  },
+  {
+    "name": "beta-carotene",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥣 Great for balanced diets. Good for the planet."
+  },
+  {
+    "name": "annatto",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Not harmful but not a superfood. May require transport or more resources."
+  },
+  {
+    "name": "caramel color",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍗 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "chlorophyllin",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧊 Great for balanced diets. Seasonal or imported."
+  },
+  {
+    "name": "paprika extract",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧄 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "beet juice powder",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍚 Best enjoyed sparingly. Grows easily and locally."
+  },
+  {
+    "name": "curcumin",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧀 Rich in essential nutrients. Often linked to environmental damage."
+  },
+  {
+    "name": "apple",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🌿 Rich in essential nutrients. Moderate ecological footprint."
+  },
+  {
+    "name": "banana",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍗 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "grape",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🥛 Nutritious and wholesome. Often linked to environmental damage."
+  },
+  {
+    "name": "mango",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧬 Supports body function well. Moderate ecological footprint."
+  },
+  {
+    "name": "kiwi",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧂 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "pineapple",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧃 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "strawberry",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Great for balanced diets. Moderate ecological footprint."
+  },
+  {
+    "name": "papaya",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥩 Standard pantry item. Can contribute to pollution."
+  },
+  {
+    "name": "peach",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧬 Linked to dietary issues. Moderate ecological footprint."
+  },
+  {
+    "name": "plum",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧂 Best enjoyed sparingly. Grows easily and locally."
+  },
+  {
+    "name": "carrot",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍋 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "broccoli",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧂 Standard pantry item. Eco-friendly staple."
+  },
+  {
+    "name": "spinach",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍅 Not harmful but not a superfood. High water or land use."
+  },
+  {
+    "name": "lettuce",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧃 Not harmful but not a superfood. Can contribute to pollution."
+  },
+  {
+    "name": "tomato",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🥣 Fine in moderation. Good for the planet."
+  },
+  {
+    "name": "onion",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥣 Fine in moderation. Often linked to environmental damage."
+  },
+  {
+    "name": "garlic",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧬 Common in everyday meals. Eco-friendly staple."
+  },
+  {
+    "name": "zucchini",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧪 Best enjoyed sparingly. Seasonal or imported."
+  },
+  {
+    "name": "pepper",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🧊 Best enjoyed sparingly. Moderate ecological footprint."
+  },
+  {
+    "name": "cabbage",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🧬 Common in everyday meals. Seasonal or imported."
+  },
+  {
+    "name": "quinoa",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥣 May have health concerns. Seasonal or imported."
+  },
+  {
+    "name": "millet",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Great for balanced diets. Low water usage."
+  },
+  {
+    "name": "barley",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🌱 Linked to dietary issues. Low water usage."
+  },
+  {
+    "name": "oats",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧃 Supports body function well. Can contribute to pollution."
+  },
+  {
+    "name": "chickpeas",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧀 Linked to dietary issues. Eco-friendly staple."
+  },
+  {
+    "name": "lentils",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧬 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "kidney beans",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🔥 Highly processed or artificial. Good for the planet."
+  },
+  {
+    "name": "black-eyed peas",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🍞 May have health concerns. May require transport or more resources."
+  },
+  {
+    "name": "bulgur",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧪 Great for balanced diets. Low water usage."
+  },
+  {
+    "name": "farro",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍋 Common in everyday meals. Moderate ecological footprint."
+  },
+  {
+    "name": "milk",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🧄 Supports body function well. Often linked to environmental damage."
+  },
+  {
+    "name": "cream",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🌱 Common in everyday meals. Good for the planet."
+  },
+  {
+    "name": "butter",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍭 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "yogurt",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🔥 Rich in essential nutrients. Often linked to environmental damage."
+  },
+  {
+    "name": "ghee",
+    "health": "neutral",
+    "sustainability": "medium impact",
+    "comment": "🍗 Fine in moderation. Seasonal or imported."
+  },
+  {
+    "name": "cheddar cheese",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🔥 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "mozzarella",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🌿 Nutritious and wholesome. Grows easily and locally."
+  },
+  {
+    "name": "egg",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍗 Nutritious and wholesome. Seasonal or imported."
+  },
+  {
+    "name": "egg white",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍞 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "egg yolk",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🥛 Linked to dietary issues. Seasonal or imported."
+  },
+  {
+    "name": "chicken",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🍋 Nutritious and wholesome. Good for the planet."
+  },
+  {
+    "name": "beef",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🧄 Highly processed or artificial. Eco-friendly staple."
+  },
+  {
+    "name": "pork",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🥛 Linked to dietary issues. High water or land use."
+  },
+  {
+    "name": "lamb",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🧊 Rich in essential nutrients. Good for the planet."
+  },
+  {
+    "name": "turkey",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🥛 Highly processed or artificial. Grows easily and locally."
+  },
+  {
+    "name": "salmon",
+    "health": "healthy",
+    "sustainability": "high impact",
+    "comment": "🍭 Supports body function well. High water or land use."
+  },
+  {
+    "name": "tuna",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🥕 Common in everyday meals. High water or land use."
+  },
+  {
+    "name": "sardine",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🧃 Common in everyday meals. Often linked to environmental damage."
+  },
+  {
+    "name": "anchovy",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍅 Not harmful but not a superfood. Often linked to environmental damage."
+  },
+  {
+    "name": "shrimp",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍞 Supports body function well. Moderate ecological footprint."
+  },
+  {
+    "name": "cumin",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🍚 Highly processed or artificial. Often linked to environmental damage."
+  },
+  {
+    "name": "coriander",
+    "health": "caution",
+    "sustainability": "medium impact",
+    "comment": "🌱 Linked to dietary issues. May require transport or more resources."
+  },
+  {
+    "name": "turmeric",
+    "health": "caution",
+    "sustainability": "low impact",
+    "comment": "🍅 May have health concerns. Good for the planet."
+  },
+  {
+    "name": "cinnamon",
+    "health": "caution",
+    "sustainability": "high impact",
+    "comment": "🧀 Linked to dietary issues. Can contribute to pollution."
+  },
+  {
+    "name": "nutmeg",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🍋 Great for balanced diets. May require transport or more resources."
+  },
+  {
+    "name": "oregano",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧪 Fine in moderation. Grows easily and locally."
+  },
+  {
+    "name": "thyme",
+    "health": "neutral",
+    "sustainability": "low impact",
+    "comment": "🧪 Standard pantry item. Grows easily and locally."
+  },
+  {
+    "name": "rosemary",
+    "health": "healthy",
+    "sustainability": "low impact",
+    "comment": "🥛 Great for balanced diets. Grows easily and locally."
+  },
+  {
+    "name": "bay leaf",
+    "health": "healthy",
+    "sustainability": "medium impact",
+    "comment": "🧬 Supports body function well. Seasonal or imported."
+  },
+  {
+    "name": "clove",
+    "health": "neutral",
+    "sustainability": "high impact",
+    "comment": "🍅 Standard pantry item. Can contribute to pollution."
+  }
+]

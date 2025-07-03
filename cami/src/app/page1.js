@@ -1,60 +1,52 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ingredientsData from './ingredients.json';
 
 export default function Home() {
   const [ingredient, setIngredient] = useState('');
   const [result, setResult] = useState(null);
-  const [animate, setAnimate] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setAnimate(false);
 
-    const lower = ingredient.toLowerCase();
+    const lower = ingredient.toLowerCase().trim();
 
-    const found = ingredientsData.find((item) =>
-      item.name.toLowerCase() === lower
+    // Find ingredient in JSON data (case-insensitive match)
+    const found = ingredientsData.find(
+      (item) => item.name.toLowerCase() === lower
     );
 
-    let response;
     if (found) {
-      response = {
-        emoji:
-          found.health === 'good'
-            ? '✅'
-            : found.health === 'caution'
-            ? '⚠️'
-            : found.health === 'neutral'
-            ? '🤔'
-            : '❓',
-        comment: found.comment,
-        health: found.health.charAt(0).toUpperCase() + found.health.slice(1),
-        sustainability:
-          found.sustainability.charAt(0).toUpperCase() +
-          found.sustainability.slice(1),
-      };
+      setResult(found);
     } else {
-      response = {
-        emoji: '🤷',
+      // Fallback response
+      setResult({
+        name: ingredient,
+        emoji: '🤔',
         comment: `"${ingredient}" is a bit of a mystery. Check the label and trust your gut.`,
-        health: 'Unknown',
+        healthiness: 'Unknown',
         sustainability: 'Unknown',
-      };
+      });
     }
 
-    setResult(response);
-
-    // Trigger animation
-    setTimeout(() => setAnimate(true), 50);
+    setFadeIn(false); // reset animation
   };
+
+  // Trigger fade-in animation on result change
+  useEffect(() => {
+    if (result) {
+      const timeout = setTimeout(() => setFadeIn(true), 50);
+      return () => clearTimeout(timeout);
+    }
+  }, [result]);
 
   return (
     <main style={styles.main}>
       <div style={styles.card}>
         <h1 style={styles.title}>Is this ingredient ✨ Cami Approved?</h1>
-        <p style={{ ...styles.subtitle, color: '#4a7a48' }}>
+        <p style={styles.subtitle}>
           A quick vibe-check on ingredients — sustainable, healthy, and Italian-nonna friendly.
         </p>
 
@@ -76,17 +68,19 @@ export default function Home() {
           <div
             style={{
               ...styles.resultBox,
-              opacity: animate ? 1 : 0,
-              transform: animate ? 'translateY(0)' : 'translateY(20px)',
+              opacity: fadeIn ? 1 : 0,
+              transform: fadeIn ? 'translateY(0)' : 'translateY(10px)',
               transition: 'opacity 0.3s ease, transform 0.3s ease',
             }}
           >
-            <p style={styles.emoji}>{result.emoji}</p>
+            <h2 style={styles.emoji}>
+              {result.emoji} {result.name.charAt(0).toUpperCase() + result.name.slice(1)}
+            </h2>
             <p style={styles.comment}>{result.comment}</p>
-            <p style={{ ...styles.info, color: '#4a7a48' }}>
-              <strong>Healthiness:</strong> {result.health}
+            <p style={styles.info}>
+              <strong>Healthiness:</strong> {result.healthiness}
             </p>
-            <p style={{ ...styles.info, color: '#4a7a48' }}>
+            <p style={styles.info}>
               <strong>Sustainability:</strong> {result.sustainability}
             </p>
           </div>
@@ -128,6 +122,7 @@ const styles = {
   },
   subtitle: {
     fontSize: '0.95rem',
+    color: '#7b9e89',
     textAlign: 'center',
     marginBottom: '2rem',
   },
@@ -158,25 +153,25 @@ const styles = {
   },
   resultBox: {
     marginTop: '2rem',
-    padding: '1.5rem',
-    backgroundColor: '#f2efe7',
+    backgroundColor: '#f6f1ea',
     borderRadius: '12px',
-    border: '1px solid #ddd',
-    boxShadow: '0 4px 8px rgba(193,68,14,0.15)',
-    textAlign: 'center',
+    padding: '1.5rem',
+    border: '1px solid #c1440e',
+    color: '#3b3028',
   },
   emoji: {
-    fontSize: '2.5rem',
-    marginBottom: '0.8rem',
+    margin: 0,
+    fontSize: '1.5rem',
+    fontWeight: '600',
   },
   comment: {
+    marginTop: '0.5rem',
     fontSize: '1rem',
-    color: '#3b3028',
-    marginBottom: '1rem',
+    fontWeight: '500',
   },
   info: {
+    marginTop: '0.8rem',
     fontSize: '0.9rem',
-    marginBottom: '0.3rem',
-    fontWeight: '600',
+    color: '#7b9e89',
   },
 };
