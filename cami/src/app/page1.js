@@ -1,59 +1,46 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ingredientsData from './ingredients.json';
 
 export default function Home() {
   const [ingredient, setIngredient] = useState('');
   const [result, setResult] = useState(null);
-  const [fadeIn, setFadeIn] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const lower = ingredient.toLowerCase().trim();
-
-    // Find ingredient in JSON data (case-insensitive match)
-    const found = ingredientsData.find(
-      (item) => item.name.toLowerCase() === lower
-    );
+    const found = ingredientsData.find(item => item.name === lower);
 
     if (found) {
-      setResult(found);
-    } else {
-      // Fallback response
       setResult({
-        name: ingredient,
-        emoji: '🤔',
-        comment: `"${ingredient}" is a bit of a mystery. Check the label and trust your gut.`,
-        healthiness: 'Unknown',
-        sustainability: 'Unknown',
+        message: found.comment,
+        health: found.health,
+        sustainability: found.sustainability,
+        emoji: found.emoji || '',
+        unknown: false,
+      });
+    } else {
+      setResult({
+        message: `🤷‍♀️ Hmm, no info on "${ingredient}" yet. Check the label and trust your gut!`,
+        unknown: true,
       });
     }
-
-    setFadeIn(false); // reset animation
   };
-
-  // Trigger fade-in animation on result change
-  useEffect(() => {
-    if (result) {
-      const timeout = setTimeout(() => setFadeIn(true), 50);
-      return () => clearTimeout(timeout);
-    }
-  }, [result]);
 
   return (
     <main style={styles.main}>
       <div style={styles.card}>
-        <h1 style={styles.title}>Is this ingredient ✨ Cami Approved?</h1>
-        <p style={styles.subtitle}>
-          A quick vibe-check on ingredients — sustainable, healthy, and Italian-nonna friendly.
+        <h1 style={styles.title}>Is this ingredient Cami approved?✨ </h1>
+        <p style={{ ...styles.subtitle, color: '#496b2d' }}>
+          A quick vibe check on ingredients — sustainable, healthy, and nonna friendly.
         </p>
 
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="text"
-            placeholder="e.g. Eggplant"
+            placeholder="e.g. Papaya"
             value={ingredient}
             onChange={(e) => setIngredient(e.target.value)}
             style={styles.input}
@@ -65,24 +52,21 @@ export default function Home() {
         </form>
 
         {result && (
-          <div
-            style={{
-              ...styles.resultBox,
-              opacity: fadeIn ? 1 : 0,
-              transform: fadeIn ? 'translateY(0)' : 'translateY(10px)',
-              transition: 'opacity 0.3s ease, transform 0.3s ease',
-            }}
-          >
-            <h2 style={styles.emoji}>
-              {result.emoji} {result.name.charAt(0).toUpperCase() + result.name.slice(1)}
-            </h2>
-            <p style={styles.comment}>{result.comment}</p>
-            <p style={styles.info}>
-              <strong>Healthiness:</strong> {result.healthiness}
+          <div style={styles.resultBox}>
+            <p style={styles.resultMessage}>
+              {result.emoji ? `${result.emoji} ${result.message}` : result.message}
             </p>
-            <p style={styles.info}>
-              <strong>Sustainability:</strong> {result.sustainability}
-            </p>
+
+            {!result.unknown && (
+              <>
+                <p style={{ ...styles.label, color: '#496b2d' }}>
+                  Healthy Level: <strong>{result.health}</strong>
+                </p>
+                <p style={{ ...styles.label, color: '#496b2d' }}>
+                  Sustainability: <strong>{result.sustainability}</strong>
+                </p>
+              </>
+            )}
           </div>
         )}
       </div>
@@ -122,7 +106,6 @@ const styles = {
   },
   subtitle: {
     fontSize: '0.95rem',
-    color: '#7b9e89',
     textAlign: 'center',
     marginBottom: '2rem',
   },
@@ -153,25 +136,21 @@ const styles = {
   },
   resultBox: {
     marginTop: '2rem',
-    backgroundColor: '#f6f1ea',
-    borderRadius: '12px',
-    padding: '1.5rem',
-    border: '1px solid #c1440e',
-    color: '#3b3028',
+    padding: '1.25rem',
+    borderRadius: '14px',
+    border: '1.5px solid #eee',
+    backgroundColor: '#f7f3ed',
   },
-  emoji: {
-    margin: 0,
-    fontSize: '1.5rem',
-    fontWeight: '600',
-  },
-  comment: {
-    marginTop: '0.5rem',
+  resultMessage: {
     fontSize: '1rem',
-    fontWeight: '500',
+    color: '#3b3028',
+    marginBottom: '1rem',
+    textAlign: 'center',
   },
-  info: {
-    marginTop: '0.8rem',
+  label: {
     fontSize: '0.9rem',
-    color: '#7b9e89',
+    fontWeight: '600',
+    textAlign: 'center',
+    margin: '0.25rem 0',
   },
 };

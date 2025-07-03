@@ -6,62 +6,101 @@ import ingredientsData from './ingredients.json';
 export default function Home() {
   const [ingredient, setIngredient] = useState('');
   const [result, setResult] = useState(null);
-  const [animate, setAnimate] = useState(false);
+
+  // Levenshtein distance function for fuzzy matching
+  function getLevenshteinDistance(a, b) {
+    const matrix = [];
+
+    for (let i = 0; i <= b.length; i++) {
+      matrix[i] = [i];
+    }
+    for (let j = 0; j <= a.length; j++) {
+      matrix[0][j] = j;
+    }
+    for (let i = 1; i <= b.length; i++) {
+      for (let j = 1; j <= a.length; j++) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+        } else {
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j - 1] + 1, // substitution
+            matrix[i][j - 1] + 1,     // insertion
+            matrix[i - 1][j] + 1      // deletion
+          );
+        }
+      }
+    }
+    return matrix[b.length][a.length];
+  }
+
+  // Fuzzy search to find closest matches, removing duplicates
+  function getClosestMatches(input, data, maxDistance = 3) {
+    const lowerInput = input.toLowerCase();
+    const matches = data
+      .map(item => ({
+        name: item.name,
+        dist: getLevenshteinDistance(lowerInput, item.name),
+      }))
+      .filter(item => item.dist <= maxDistance)
+      .sort((a, b) => a.dist - b.dist)
+      .map(item => item.name);
+
+    // Remove duplicates while preserving order
+    const uniqueMatches = [...new Set(matches)];
+
+    return uniqueMatches.slice(0, 3);
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setAnimate(false);
 
-    const lower = ingredient.toLowerCase();
+    const lower = ingredient.toLowerCase().trim();
+    const found = ingredientsData.find(item => item.name === lower);
 
-    const found = ingredientsData.find((item) =>
-      item.name.toLowerCase() === lower
-    );
-
-    let response;
     if (found) {
-      response = {
-        emoji:
-          found.health === 'good'
-            ? '✅'
-            : found.health === 'caution'
-            ? '⚠️'
-            : found.health === 'neutral'
-            ? '🤔'
-            : '❓',
-        comment: found.comment,
-        health: found.health.charAt(0).toUpperCase() + found.health.slice(1),
-        sustainability:
-          found.sustainability.charAt(0).toUpperCase() +
-          found.sustainability.slice(1),
-      };
+      setResult({
+        message: found.comment,
+        health: found.health,
+        sustainability: found.sustainability,
+        emoji: found.emoji || '',
+        unknown: false,
+      });
     } else {
-      response = {
-        emoji: '🤷',
-        comment: `"${ingredient}" is a bit of a mystery. Check the label and trust your gut.`,
-        health: 'Unknown',
-        sustainability: 'Unknown',
-      };
+      // Get close matches for suggestions
+      const suggestions = getClosestMatches(lower, ingredientsData);
+      setResult({
+        message: `🤷‍♀️ Hmm, no info on "${ingredient}" yet. Check the label and trust your gut!`,
+        unknown: true,
+        suggestions,
+      });
     }
+  };
 
-    setResult(response);
+  // Color coding for health and sustainability levels
+  const colorByHealth = {
+    good: '#3a7a2b',
+    neutral: '#a97c50',
+    caution: '#c1440e',
+  };
 
-    // Trigger animation
-    setTimeout(() => setAnimate(true), 50);
+  const colorBySustainability = {
+    'low impact': '#3a7a2b',
+    'medium impact': '#a97c50',
+    'high impact': '#c1440e',
   };
 
   return (
     <main style={styles.main}>
       <div style={styles.card}>
-        <h1 style={styles.title}>Is this ingredient ✨ Cami Approved?</h1>
-        <p style={{ ...styles.subtitle, color: '#4a7a48' }}>
-          A quick vibe-check on ingredients — sustainable, healthy, and Italian-nonna friendly.
+        <h1 style={styles.title}>Is this ingredient Cami approved?✨ </h1>
+        <p style={{ ...styles.subtitle, color: '#496b2d' }}>
+          A quick vibe check on ingredients — sustainable, healthy, and nonna friendly.
         </p>
 
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="text"
-            placeholder="e.g. Eggplant"
+            placeholder="e.g. Papaya"
             value={ingredient}
             onChange={(e) => setIngredient(e.target.value)}
             style={styles.input}
@@ -76,25 +115,49 @@ export default function Home() {
           <div
             style={{
               ...styles.resultBox,
-              opacity: animate ? 1 : 0,
-              transform: animate ? 'translateY(0)' : 'translateY(20px)',
-              transition: 'opacity 0.3s ease, transform 0.3s ease',
+              animation: 'fadeIn 0.5s ease',
             }}
           >
-            <p style={styles.emoji}>{result.emoji}</p>
-            <p style={styles.comment}>{result.comment}</p>
-            <p style={{ ...styles.info, color: '#4a7a48' }}>
-              <strong>Healthiness:</strong> {result.health}
+            <p style={styles.resultMessage}>
+              {result.emoji ? `${result.emoji} ${result.message}` : result.message}
             </p>
-            <p style={{ ...styles.info, color: '#4a7a48' }}>
-              <strong>Sustainability:</strong> {result.sustainability}
-            </p>
+
+            {!result.unknown && (
+              <>
+                <p
+                  style={{
+                    ...styles.label,
+                    color: colorByHealth[result.health] || '#496b2d',
+                  }}
+                >
+                  Healthy Level: <strong>{result.health}</strong>
+                </p>
+                <p
+                  style={{
+                    ...styles.label,
+                    color: colorBySustainability[result.sustainability] || '#496b2d',
+                  }}
+                >
+                  Sustainability: <strong>{result.sustainability}</strong>
+                </p>
+              </>
+            )}
+
+            {result.unknown && result.suggestions && result.suggestions.length > 0 && (
+              <p style={{ ...styles.suggestions, color: '#c1440e' }}>
+                Did you mean: {result.suggestions.join(', ')}?
+              </p>
+            )}
           </div>
         )}
       </div>
 
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
       `}</style>
     </main>
   );
@@ -158,25 +221,27 @@ const styles = {
   },
   resultBox: {
     marginTop: '2rem',
-    padding: '1.5rem',
-    backgroundColor: '#f2efe7',
-    borderRadius: '12px',
-    border: '1px solid #ddd',
-    boxShadow: '0 4px 8px rgba(193,68,14,0.15)',
-    textAlign: 'center',
+    padding: '1.25rem',
+    borderRadius: '14px',
+    border: '1.5px solid #eee',
+    backgroundColor: '#f7f3ed',
   },
-  emoji: {
-    fontSize: '2.5rem',
-    marginBottom: '0.8rem',
-  },
-  comment: {
+  resultMessage: {
     fontSize: '1rem',
     color: '#3b3028',
     marginBottom: '1rem',
+    textAlign: 'center',
   },
-  info: {
+  label: {
     fontSize: '0.9rem',
-    marginBottom: '0.3rem',
     fontWeight: '600',
+    textAlign: 'center',
+    margin: '0.25rem 0',
+  },
+  suggestions: {
+    fontSize: '0.9rem',
+    fontWeight: '500',
+    textAlign: 'center',
+    marginTop: '1rem',
   },
 };
